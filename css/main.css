@@ -1,0 +1,556 @@
+.container{
+    max-width: 1200px;
+    padding: 30px;
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav__links{
+    text-decoration: none;
+    color: #4F4D8E;
+    font-size: 14px;
+    margin-right: 60px;
+    font-family: 'JakartaReg';
+}
+
+.nav__links:last-child{
+    margin-right: 0px;
+}
+
+.btn{
+    align-self: center;
+    padding: 10px 30px;
+    border: 1px solid;
+    color: #F27407;
+    text-decoration: none;
+    border-width: 2px;
+    font-family: 'JakartaReg';
+}
+
+.btn:hover{
+    background-color: #F27407;
+    color: white;
+    transition: .2s linear;
+}
+
+/* Web and mobile applications*/
+
+.applications{
+    background-color: #F5FBF3;
+    margin-bottom: 120px;
+}
+
+.application_wrapper{
+    background-color: #F5FBF3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.application_inner_textbox{
+    display: block;
+    margin: 90px 0px 95px 0px;
+}
+
+.in_application_img{
+    display: block;
+    height: 264px;
+    margin: 95px 0px;
+}
+
+.inbox_title_main{
+margin-bottom: 30px;
+line-height: 40px;
+color: #4F4D8E;
+font-family: 'JakartaBold';
+font-size: 32px;
+}
+
+.inbox_title_sec{
+line-height: 30px;
+margin-bottom: 40px;
+color: #4F4D8E;
+font-family: 'JakartaReg';
+font-size: 16px;
+}
+
+/*How it works*/
+
+
+/* Audience description*/
+
+.audience_title{
+    margin-bottom: 80px;
+    font-size: 24px;
+    line-height: 31.06px;
+    color: #4F4D8E;
+    font-family: 'JakartaBold';
+}
+
+.audience_block_left{
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    width: 380px;
+    height: 550px;
+}
+
+.audience_block_midlle{
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    width: 380px;
+    height: 550px;
+}
+
+.audience_block_right{
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    width: 380px;
+    height: 550px;
+}
+
+.audience_block_inner_circle{
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.audience_block_inner_content{
+    text-align: center;
+    margin-top: 105px;
+}
+
+.audience_block_inner_content_big-title{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #4F4D8E;
+    font-family: 'JakartaMed';
+}
+
+.audience_block_inner_content_lil-title{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #4F4D8E99;
+    font-family: 'JakartaReg';
+}
+
+.audience_block_inner_content_main-title{
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 75px;
+    color: #4F4D8E;
+    font-family: 'JakartaMed';
+}
+
+.audience_blocs{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Result*/
+
+.result_title{
+    color: #4F4D8E;
+    font-size: 24px;
+    line-height: 31px;
+    padding-top: 40px;
+    padding-bottom: 75px;
+    font-family: 'JakartaBold';
+}
+
+.result_block_left{
+    display: flex;
+    align-items: center;
+}
+
+.result_block_middle{
+    display: flex;
+    align-items: center;
+}
+
+.result_block_right{
+    display: flex;
+    align-items: center;
+}
+
+.result_block_inner_img{
+    padding: 15px 15px;
+    border-radius: 15px 5px;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.1);
+}
+
+.result_block_inner_content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    max-width: 230px;
+}
+
+.r_block_inner_title_main{
+    color: #4F4D8E;
+    font-size: 19px;
+    line-height: 23px;
+    font-family: 'JakartaBold';
+}
+
+.r_block_inner_title_sec{
+    color: #4F4D8E99;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'JakartaLight';
+}
+
+.result_blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Cases*/
+
+.cases_main_block{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cases_img{
+    display: block;
+    margin: 30px 60px 30px 45px;
+}
+
+.cases_content_block{
+    margin: 95px 0px 0px 100px;
+}
+
+.cb_first{
+    color: #4F4D8E;
+    font-size: 18px;
+    line-height: 23.29px;
+    margin-bottom: 30px;
+    font-family: 'JakartaBold';
+}
+
+.cb_sec{
+    color: #4F4D8E;
+    font-size: 32px;
+    line-height: 41.41px;
+    margin-bottom: 30px;
+    font-family: 'JakartaBold';
+}
+
+.cb_third{
+color: rgba(79, 77, 142, 0.6);
+font-size: 16px;
+line-height: 34px;
+font-family: 'JakartaReg';
+}
+
+.cb_fourth{
+    color: #4F4D8E;
+    text-decoration: underline;
+    line-height: 34px;
+    text-transform: lowercase;
+    font-family: 'JakartaReg';
+}
+
+.cases_title{
+    margin-top: 70px;
+    color: #4F4D8E;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 75px;
+    font-family: 'JakartaBold';
+}
+
+/*Cases in numbers*/
+
+.cases_num_content_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cases_num_incontent_text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cases_num_title{
+    color: #4F4D8E;
+    font-size: 24px;
+    line-height: 31.06px;
+    margin-bottom: 75px;
+    font-family: 'JakartaBold';
+}
+
+.cases_num_incontent_img{
+    margin-bottom: 32px;
+}
+
+.csn_first{
+    color: #4F4D8E;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'JakartaMed';
+}
+.csn_second{
+    color: #4F4D8E99;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'JakartaReg';
+}
+
+.cases_num_main_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Testimonials*/
+
+.test_main_title{
+    margin-top: 70px;
+    margin-bottom: 75px;
+    font-size: 24px;
+    line-height: 31.06px;
+    color: #4F4D8E;
+    font-family: 'JakartaBold';
+}
+
+.test_main_block{
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 115px;
+}
+
+.test_inmain_content_block{
+    padding-top: 70px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inmain_img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tt_first{
+    color: #4F4D8E;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-family: 'JakartaBold';
+}
+
+.tt_sec{
+    color: #4F4D8E99;
+    font-size: 14px;
+    line-height: 19.6px;
+    margin-bottom: 10px;
+    font-family: 'JakartaReg';
+}
+
+.tt_third{
+    color: #4F4D8E99;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 10px;
+    font-family: 'JakartaReg';
+}
+
+.tt_fourth{
+    color: #4F4D8E99;
+    font-size: 14px;
+    line-height: 18.12px;
+    font-family: 'JakartaReg';
+}
+
+.tt_fifth{
+    color: #4F4D8E;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-transform: lowercase;
+    font-family: 'JakartaReg';
+}
+
+.inmain_content_block{
+    padding-top: 0px;
+}
+
+/*Services*/
+
+.services_main_title{
+    margin-bottom: 75px;
+    color: #4F4D8E;
+    font-size: 24px;
+    line-height: 31.06px;
+    font-family: 'JakartaBold';
+}
+
+.inblock_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_api_1{
+    display: flex;
+    background: #FEFBF2;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.block_api_2{
+    display: flex;
+    background: #F2FBFE;
+    justify-content: space-between;
+}
+
+.block_E-comerce_1{
+    display: flex;
+    background: #FEFBF2;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.block_E-comerce_2{
+    display: flex;
+    background: #FEF2FE;
+    justify-content: space-between;
+}
+
+.inblock_content_text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-left: 40px;
+    margin-bottom: 65px;
+    width: 350px;
+}
+
+.inblock_img{
+    display: block;
+    margin: 115px 40px 140px 40px;
+}
+
+.serv_first{
+    color: #4F4D8E;
+    font-size: 19px;
+    line-height: 22.8px;
+    margin-bottom: 5px;
+    font-family: 'JakartaBold';
+}
+
+.serv_sec{
+    color: #4F4D8E99;
+    font-size: 14px;
+    line-height: 19.6px;
+    margin-bottom: 45px;
+    font-family: 'JakartaLight';
+}
+
+.services_control{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services{
+    margin-bottom: 90px;
+}
+
+/*lets work together*/
+.lets_work{
+    margin-bottom: 110px;
+}
+
+/*footer*/
+.footer_upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow_us{
+    display: flex;
+    flex-direction: column;
+    padding-right: 360px;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+}
+
+.headquarters{
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+}
+
+.documents{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_text_big{
+    color: #4F4D8E;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-family: 'JakartaBold';
+}
+
+.footer_text_lil{
+    text-decoration: none;
+    color: #4F4D8E;
+    size: 16px;
+    line-height: 28px;
+    font-family: 'JakartaReg';
+}
+
+.footer_line{
+    background: #F27407;
+    height: 2px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.footer_under{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_under_text_1{
+color: #4F4D8E;
+font-size: 16px;
+line-height: 28px;
+text-decoration: none;
+font-family: 'JakartaReg';
+}
+
+.footer_under_text_2{
+    color: #4F4D8E99;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'JakartaReg';
+}

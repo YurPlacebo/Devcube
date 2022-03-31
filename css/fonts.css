@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'JaKartaBold';
+    src: url(../jakarta/PlusJakartaDisplay-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: 'JakartaMed';
+    src: url(../jakarta/PlusJakartaDisplay-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'JakartaReg';
+    src: url(../jakarta/PlusJakartaDisplay-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'JakartaLight';
+    src: url(../jakarta/PlusJakartaDisplay-Light.otf);
+    font-weight: 300;
+}
